@@ -1,6 +1,6 @@
 {
   "name": "simple-file-encrypt",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "A simple command line tool for encrypting/decrypting a file",
   "main": "bin/index.js",
   "scripts": {
@@ -18,7 +18,8 @@
     "url": "https://github.com/ant-fx/simple-file-encrypt"
   },
   "bin": {
-    "simple-file-encrypt": "bin/index.js"
+    "simple-file-encrypt": "bin/encrypt.js",
+    "simple-file-decrypt": "bin/decrypt.js"
   },
   "homepage": "https://github.com/ant-fx/simple-file-encrypt",
   "author": "Mike Davies",
