@@ -14,7 +14,7 @@ if (
   log(`
     Sample usage:
 
-    node enc.js \\
+    simple-file-encrypt \\
       --command lock \\
       --key abcd \\
       --original ./production.json \\
