@@ -52,11 +52,10 @@ if (
       --original ./production.json \\
       --locked ./production.locked
   `);
-  log(args);
   return;
 }
 
-commands[args.command]
+commands[args.command]()
   .then(() => {
     log('Done!');
   })
