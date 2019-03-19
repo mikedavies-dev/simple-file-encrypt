@@ -1,5 +1,5 @@
 # Simple File Encrypt
-A simple tool to quickly encrtypt and decrypt a file using `aes-256-ctr`
+A simple tool to quickly encrypt and decrypt a file using `aes-256-ctr`
 
 # Install
 `npm install -g simple-file-encrypt`
